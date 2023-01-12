@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    
+    <script>document.write("hello");
+        console.log("console text");
+    </script>
 </head>
-<body>
+<body onload="alert('page load')">
 
     <form>
         Enter user name: <input type="text">
         Enter password:<input type="password">
-
-        <button type="button" onclick="alert('hi')">login</button>
+        <button type="button" onclick="display()">login</button>
     </form>
-    <script>
-        document.write("hello");
-        console.log("console");
-    </script>
     
+    <script src="script.js"></script>
 </body>
 </html>
